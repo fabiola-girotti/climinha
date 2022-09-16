@@ -1,0 +1,106 @@
+.container{
+        background-color: rgb(181, 255, 251);
+		display: flex;
+		align-items: center;
+        text-align: center;
+		margin-left: 10%;
+		margin-right: 10px;
+		margin-top: 150px;
+		margin-bottom: 220px;
+		border-radius: 20px;
+        flex-direction: column;
+}
+
+.cidade{
+    font-size: 16px;
+    color: #000;
+    opacity: 0.5;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 30px;
+    width: 60%;
+    /* height: 10%; */
+    margin-top: 12px;
+}
+
+.tempsmin{
+    /* display: flex; */
+    flex-direction: row;
+    font-family: inter;
+    color: #000;
+}
+
+.tempmax {
+    font-size: 15px;
+    font-family: inter;
+    margin-right: 40px;
+    margin-left: 35px;
+}
+
+.tempmin{
+    font-size: 15px;
+    margin-right:  40px; ;
+    font-family: inter;
+}
+
+.infosadd{
+    background-color: #fff;
+    border-radius: 15px;
+    font-size: 11px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    width: 80%;
+    text-align: center;
+    line-height: 5px;
+}
+
+.sensacaoter{
+    font-size: 11;
+    flex-direction: row;
+}
+
+.umidadear{
+    font-size: 11;
+}
+
+.indiceuv{
+    font-size: 11;
+}
+
+.temperatura {
+    font-size: 20px;
+    color: #000;
+    opacity: 0.5;
+    text-align: center;
+}
+
+.imagem{
+    height: 60;
+    align-items: center;
+    margin-top: 10;
+    padding: 10px;
+}
+
+.temps{
+    display: flex;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 1566px) {
+    .container {
+
+      height: 100vh;
+      justify-content:space-evenly;
+      display: flex;
+      align-items: center;
+    }
+    .container{
+        height: 55vh;
+        width: 350px;
+        justify-content:space-evenly;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+} 
